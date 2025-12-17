@@ -1,0 +1,30 @@
+{
+  "id": "module-2-digital-twin/sensor-simulation",
+  "title": "Sensor Simulation",
+  "description": "Simulating sensors like LiDAR, depth cameras, and IMUs for humanoid robots",
+  "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/sensor-simulation",
+  "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Sensor Simulation",
+    "sidebar_label": "Sensor Simulation",
+    "sidebar_position": 3,
+    "description": "Simulating sensors like LiDAR, depth cameras, and IMUs for humanoid robots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity HRI",
+    "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+  },
+  "next": {
+    "title": "AI-Robot Brain",
+    "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Module 1 - The Robotic Nervous System (ROS 2)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to connect digital AI agents with physical robots using ROS 2."
+  }
+}

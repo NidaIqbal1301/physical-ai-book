@@ -1,0 +1,649 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/physical-ai-book/docs",
+          "tagsPath": "/physical-ai-book/docs/tags",
+          "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs",
+          "editUrlLocalized": "https://github.com/your-username/physical-ai-book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Quarter_04\\hackathon_phase_01\\physical-ai-and-humanoid-robotics-book\\book\\sidebars.js",
+          "contentPath": "D:\\Quarter_04\\hackathon_phase_01\\physical-ai-and-humanoid-robotics-book\\book\\docs",
+          "contentPathLocalized": "D:\\Quarter_04\\hackathon_phase_01\\physical-ai-and-humanoid-robotics-book\\book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "intro",
+              "title": "Introduction",
+              "description": "Introduction to the Physical AI & Humanoid Robotics book",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/physical-ai-book/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction",
+                "sidebar_label": "Introduction",
+                "sidebar_position": 1,
+                "description": "Introduction to the Physical AI & Humanoid Robotics book"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "ROS 2",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/"
+              }
+            },
+            {
+              "id": "module-1-ros2/architecture",
+              "title": "ROS 2 Architecture",
+              "description": "Understanding the architecture of ROS 2 for humanoid robot control",
+              "source": "@site/docs/module-1-ros2/architecture.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/architecture",
+              "permalink": "/physical-ai-book/docs/module-1-ros2/architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "ROS 2 Architecture",
+                "sidebar_label": "Architecture",
+                "sidebar_position": 1,
+                "description": "Understanding the architecture of ROS 2 for humanoid robot control"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/"
+              },
+              "next": {
+                "title": "Nodes, Topics, Services",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services"
+              }
+            },
+            {
+              "id": "module-1-ros2/index",
+              "title": "Module 1 - The Robotic Nervous System (ROS 2)",
+              "description": "Introduction to ROS 2 for humanoid robot control",
+              "source": "@site/docs/module-1-ros2/index.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/",
+              "permalink": "/physical-ai-book/docs/module-1-ros2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Module 1 - The Robotic Nervous System (ROS 2)",
+                "sidebar_label": "ROS 2",
+                "sidebar_position": 2,
+                "description": "Introduction to ROS 2 for humanoid robot control"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/physical-ai-book/docs/intro"
+              },
+              "next": {
+                "title": "Architecture",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/architecture"
+              }
+            },
+            {
+              "id": "module-1-ros2/nodes-topics-services",
+              "title": "ROS 2 Nodes, Topics, and Services",
+              "description": "Understanding ROS 2 communication patterns for humanoid robot control",
+              "source": "@site/docs/module-1-ros2/nodes-topics-services.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/nodes-topics-services",
+              "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/nodes-topics-services.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "ROS 2 Nodes, Topics, and Services",
+                "sidebar_label": "Nodes, Topics, Services",
+                "sidebar_position": 2,
+                "description": "Understanding ROS 2 communication patterns for humanoid robot control"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Architecture",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/architecture"
+              },
+              "next": {
+                "title": "URDF",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+              }
+            },
+            {
+              "id": "module-1-ros2/urdf",
+              "title": "Humanoid Description Formats (URDF)",
+              "description": "Understanding URDF for describing humanoid robots in ROS 2",
+              "source": "@site/docs/module-1-ros2/urdf.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/urdf",
+              "permalink": "/physical-ai-book/docs/module-1-ros2/urdf",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/urdf.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Humanoid Description Formats (URDF)",
+                "sidebar_label": "URDF",
+                "sidebar_position": 3,
+                "description": "Understanding URDF for describing humanoid robots in ROS 2"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nodes, Topics, Services",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services"
+              },
+              "next": {
+                "title": "Digital Twin",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/"
+              }
+            },
+            {
+              "id": "module-2-digital-twin/gazebo-simulation",
+              "title": "Gazebo Simulation",
+              "description": "Physics simulation for humanoid robots using Gazebo",
+              "source": "@site/docs/module-2-digital-twin/gazebo-simulation.md",
+              "sourceDirName": "module-2-digital-twin",
+              "slug": "/module-2-digital-twin/gazebo-simulation",
+              "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/gazebo-simulation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Gazebo Simulation",
+                "sidebar_label": "Gazebo Simulation",
+                "sidebar_position": 1,
+                "description": "Physics simulation for humanoid robots using Gazebo"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Digital Twin",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/"
+              },
+              "next": {
+                "title": "Unity HRI",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+              }
+            },
+            {
+              "id": "module-2-digital-twin/index",
+              "title": "Module 2 - The Digital Twin (Gazebo & Unity)",
+              "description": "Physics simulation and environment building for humanoid robots",
+              "source": "@site/docs/module-2-digital-twin/index.md",
+              "sourceDirName": "module-2-digital-twin",
+              "slug": "/module-2-digital-twin/",
+              "permalink": "/physical-ai-book/docs/module-2-digital-twin/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Module 2 - The Digital Twin (Gazebo & Unity)",
+                "sidebar_label": "Digital Twin",
+                "sidebar_position": 3,
+                "description": "Physics simulation and environment building for humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "URDF",
+                "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+              },
+              "next": {
+                "title": "Gazebo Simulation",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+              }
+            },
+            {
+              "id": "module-2-digital-twin/sensor-simulation",
+              "title": "Sensor Simulation",
+              "description": "Simulating sensors like LiDAR, depth cameras, and IMUs for humanoid robots",
+              "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
+              "sourceDirName": "module-2-digital-twin",
+              "slug": "/module-2-digital-twin/sensor-simulation",
+              "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Sensor Simulation",
+                "sidebar_label": "Sensor Simulation",
+                "sidebar_position": 3,
+                "description": "Simulating sensors like LiDAR, depth cameras, and IMUs for humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Unity HRI",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+              },
+              "next": {
+                "title": "AI-Robot Brain",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+              }
+            },
+            {
+              "id": "module-2-digital-twin/unity-hri",
+              "title": "Unity for Human-Robot Interaction",
+              "description": "High-fidelity rendering and HRI in Unity for humanoid robots",
+              "source": "@site/docs/module-2-digital-twin/unity-hri.md",
+              "sourceDirName": "module-2-digital-twin",
+              "slug": "/module-2-digital-twin/unity-hri",
+              "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/unity-hri.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Unity for Human-Robot Interaction",
+                "sidebar_label": "Unity HRI",
+                "sidebar_position": 2,
+                "description": "High-fidelity rendering and HRI in Unity for humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gazebo Simulation",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+              },
+              "next": {
+                "title": "Sensor Simulation",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation"
+              }
+            },
+            {
+              "id": "module-3-ai-brain/index",
+              "title": "Module 3 - The AI-Robot Brain (NVIDIA Isaac)",
+              "description": "Advanced perception and AI training for humanoid robots",
+              "source": "@site/docs/module-3-ai-brain/index.md",
+              "sourceDirName": "module-3-ai-brain",
+              "slug": "/module-3-ai-brain/",
+              "permalink": "/physical-ai-book/docs/module-3-ai-brain/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "title": "Module 3 - The AI-Robot Brain (NVIDIA Isaac)",
+                "sidebar_label": "AI-Robot Brain",
+                "sidebar_position": 4,
+                "description": "Advanced perception and AI training for humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sensor Simulation",
+                "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation"
+              },
+              "next": {
+                "title": "Isaac Sim",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim"
+              }
+            },
+            {
+              "id": "module-3-ai-brain/isaac-sim",
+              "title": "Isaac Sim for Photorealistic Simulation",
+              "description": "Photorealistic simulation and synthetic data generation with Isaac Sim",
+              "source": "@site/docs/module-3-ai-brain/isaac-sim.md",
+              "sourceDirName": "module-3-ai-brain",
+              "slug": "/module-3-ai-brain/isaac-sim",
+              "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/isaac-sim.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Isaac Sim for Photorealistic Simulation",
+                "sidebar_label": "Isaac Sim",
+                "sidebar_position": 1,
+                "description": "Photorealistic simulation and synthetic data generation with Isaac Sim"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "AI-Robot Brain",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+              },
+              "next": {
+                "title": "VSLAM Navigation",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+              }
+            },
+            {
+              "id": "module-3-ai-brain/nav2-humanoid",
+              "title": "Nav2 for Humanoid Movement",
+              "description": "Using Nav2 for bipedal humanoid movement and navigation",
+              "source": "@site/docs/module-3-ai-brain/nav2-humanoid.md",
+              "sourceDirName": "module-3-ai-brain",
+              "slug": "/module-3-ai-brain/nav2-humanoid",
+              "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/nav2-humanoid.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Nav2 for Humanoid Movement",
+                "sidebar_label": "Nav2 Humanoid",
+                "sidebar_position": 3,
+                "description": "Using Nav2 for bipedal humanoid movement and navigation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VSLAM Navigation",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+              },
+              "next": {
+                "title": "VLA",
+                "permalink": "/physical-ai-book/docs/module-4-vla/"
+              }
+            },
+            {
+              "id": "module-3-ai-brain/vslam-navigation",
+              "title": "VSLAM and Navigation",
+              "description": "Visual SLAM and navigation systems for humanoid robots using Isaac ROS",
+              "source": "@site/docs/module-3-ai-brain/vslam-navigation.md",
+              "sourceDirName": "module-3-ai-brain",
+              "slug": "/module-3-ai-brain/vslam-navigation",
+              "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/vslam-navigation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "VSLAM and Navigation",
+                "sidebar_label": "VSLAM Navigation",
+                "sidebar_position": 2,
+                "description": "Visual SLAM and navigation systems for humanoid robots using Isaac ROS"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Isaac Sim",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim"
+              },
+              "next": {
+                "title": "Nav2 Humanoid",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid"
+              }
+            },
+            {
+              "id": "module-4-vla/capstone-project",
+              "title": "Capstone Project - Autonomous Humanoid",
+              "description": "Integrating all concepts into an autonomous humanoid system",
+              "source": "@site/docs/module-4-vla/capstone-project.md",
+              "sourceDirName": "module-4-vla",
+              "slug": "/module-4-vla/capstone-project",
+              "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/capstone-project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "Capstone Project - Autonomous Humanoid",
+                "sidebar_label": "Capstone Project",
+                "sidebar_position": 3,
+                "description": "Integrating all concepts into an autonomous humanoid system"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cognitive Planning",
+                "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+              }
+            },
+            {
+              "id": "module-4-vla/cognitive-planning",
+              "title": "Cognitive Planning with LLMs",
+              "description": "Using LLMs to translate natural language into ROS 2 actions for humanoid robots",
+              "source": "@site/docs/module-4-vla/cognitive-planning.md",
+              "sourceDirName": "module-4-vla",
+              "slug": "/module-4-vla/cognitive-planning",
+              "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/cognitive-planning.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Cognitive Planning with LLMs",
+                "sidebar_label": "Cognitive Planning",
+                "sidebar_position": 2,
+                "description": "Using LLMs to translate natural language into ROS 2 actions for humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Voice-to-Action",
+                "permalink": "/physical-ai-book/docs/module-4-vla/voice-action"
+              },
+              "next": {
+                "title": "Capstone Project",
+                "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project"
+              }
+            },
+            {
+              "id": "module-4-vla/index",
+              "title": "Module 4 - Vision-Language-Action (VLA)",
+              "description": "Convergence of LLMs and Robotics for autonomous behavior",
+              "source": "@site/docs/module-4-vla/index.md",
+              "sourceDirName": "module-4-vla",
+              "slug": "/module-4-vla/",
+              "permalink": "/physical-ai-book/docs/module-4-vla/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "title": "Module 4 - Vision-Language-Action (VLA)",
+                "sidebar_label": "VLA",
+                "sidebar_position": 5,
+                "description": "Convergence of LLMs and Robotics for autonomous behavior"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nav2 Humanoid",
+                "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid"
+              },
+              "next": {
+                "title": "Voice-to-Action",
+                "permalink": "/physical-ai-book/docs/module-4-vla/voice-action"
+              }
+            },
+            {
+              "id": "module-4-vla/voice-action",
+              "title": "Voice-to-Action Systems",
+              "description": "Integrating OpenAI Whisper for voice processing in humanoid robots",
+              "source": "@site/docs/module-4-vla/voice-action.md",
+              "sourceDirName": "module-4-vla",
+              "slug": "/module-4-vla/voice-action",
+              "permalink": "/physical-ai-book/docs/module-4-vla/voice-action",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/voice-action.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Voice-to-Action Systems",
+                "sidebar_label": "Voice-to-Action",
+                "sidebar_position": 1,
+                "description": "Integrating OpenAI Whisper for voice processing in humanoid robots"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "VLA",
+                "permalink": "/physical-ai-book/docs/module-4-vla/"
+              },
+              "next": {
+                "title": "Cognitive Planning",
+                "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 1 - The Robotic Nervous System (ROS 2)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/nodes-topics-services"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/urdf"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2 - The Digital Twin (Gazebo & Unity)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-2-digital-twin/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-2-digital-twin/gazebo-simulation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-2-digital-twin/unity-hri"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-2-digital-twin/sensor-simulation"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3 - The AI-Robot Brain (NVIDIA Isaac)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-3-ai-brain/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-3-ai-brain/isaac-sim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-3-ai-brain/vslam-navigation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-3-ai-brain/nav2-humanoid"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4 - Vision-Language-Action (VLA)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-4-vla/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-4-vla/voice-action"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-4-vla/cognitive-planning"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-4-vla/capstone-project"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": []
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

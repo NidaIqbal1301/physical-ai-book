@@ -1,0 +1,30 @@
+{
+  "id": "module-4-vla/cognitive-planning",
+  "title": "Cognitive Planning with LLMs",
+  "description": "Using LLMs to translate natural language into ROS 2 actions for humanoid robots",
+  "source": "@site/docs/module-4-vla/cognitive-planning.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/cognitive-planning",
+  "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/cognitive-planning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Cognitive Planning with LLMs",
+    "sidebar_label": "Cognitive Planning",
+    "sidebar_position": 2,
+    "description": "Using LLMs to translate natural language into ROS 2 actions for humanoid robots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voice-to-Action",
+    "permalink": "/physical-ai-book/docs/module-4-vla/voice-action"
+  },
+  "next": {
+    "title": "Capstone Project",
+    "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project"
+  }
+}

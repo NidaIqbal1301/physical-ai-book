@@ -1,0 +1,26 @@
+{
+  "id": "module-4-vla/capstone-project",
+  "title": "Capstone Project - Autonomous Humanoid",
+  "description": "Integrating all concepts into an autonomous humanoid system",
+  "source": "@site/docs/module-4-vla/capstone-project.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/capstone-project",
+  "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/capstone-project.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Capstone Project - Autonomous Humanoid",
+    "sidebar_label": "Capstone Project",
+    "sidebar_position": 3,
+    "description": "Integrating all concepts into an autonomous humanoid system"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cognitive Planning",
+    "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+  }
+}

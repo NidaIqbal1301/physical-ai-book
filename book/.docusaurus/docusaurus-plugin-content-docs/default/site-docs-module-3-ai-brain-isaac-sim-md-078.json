@@ -1,0 +1,30 @@
+{
+  "id": "module-3-ai-brain/isaac-sim",
+  "title": "Isaac Sim for Photorealistic Simulation",
+  "description": "Photorealistic simulation and synthetic data generation with Isaac Sim",
+  "source": "@site/docs/module-3-ai-brain/isaac-sim.md",
+  "sourceDirName": "module-3-ai-brain",
+  "slug": "/module-3-ai-brain/isaac-sim",
+  "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Isaac Sim for Photorealistic Simulation",
+    "sidebar_label": "Isaac Sim",
+    "sidebar_position": 1,
+    "description": "Photorealistic simulation and synthetic data generation with Isaac Sim"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI-Robot Brain",
+    "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+  },
+  "next": {
+    "title": "VSLAM Navigation",
+    "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+  }
+}

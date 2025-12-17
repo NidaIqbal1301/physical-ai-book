@@ -1,0 +1,343 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "0787d826": [
+      495
+    ],
+    "0e384e19": [
+      976
+    ],
+    "21ce1082": [
+      569
+    ],
+    "2ad1eea0": [
+      900
+    ],
+    "2de1ffc5": [
+      963
+    ],
+    "3a7a8a21": [
+      845
+    ],
+    "495f1a83": [
+      622
+    ],
+    "4a90598f": [
+      601
+    ],
+    "4dd5b0c3": [
+      226
+    ],
+    "5e95c892": [
+      647
+    ],
+    "8113467f": [
+      131
+    ],
+    "935f2afb": [
+      581
+    ],
+    "a4c20346": [
+      874
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "bd47438f": [
+      643
+    ],
+    "bfc2b222": [
+      492
+    ],
+    "cc43c293": [
+      213
+    ],
+    "cd1ecd84": [
+      757
+    ],
+    "d40f44fe": [
+      818
+    ],
+    "e1cc05d4": [
+      374
+    ],
+    "f32f8da4": [
+      933
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.f4e7d5b7.js",
+          "hash": "7b686ea094c04000",
+          "publicPath": "/physical-ai-book/assets/js/a94703ab.f4e7d5b7.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.09e36e7e.js",
+          "hash": "6e734979869e02a0",
+          "publicPath": "/physical-ai-book/assets/js/a7bd4aaa.09e36e7e.js"
+        }
+      ]
+    },
+    "131": {
+      "js": [
+        {
+          "file": "assets/js/8113467f.f0117c0f.js",
+          "hash": "92cdabff04b98da5",
+          "publicPath": "/physical-ai-book/assets/js/8113467f.f0117c0f.js"
+        }
+      ]
+    },
+    "213": {
+      "js": [
+        {
+          "file": "assets/js/cc43c293.ed6d9f81.js",
+          "hash": "6ae315a2e99b9613",
+          "publicPath": "/physical-ai-book/assets/js/cc43c293.ed6d9f81.js"
+        }
+      ]
+    },
+    "226": {
+      "js": [
+        {
+          "file": "assets/js/4dd5b0c3.a9840144.js",
+          "hash": "6eb966f192017a98",
+          "publicPath": "/physical-ai-book/assets/js/4dd5b0c3.a9840144.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.9948ebcb.js",
+          "hash": "3407dc9f16dc0e61",
+          "publicPath": "/physical-ai-book/assets/js/237.9948ebcb.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.3afbeb89.js",
+          "hash": "59a2bc90a8fbcdeb",
+          "publicPath": "/physical-ai-book/assets/js/runtime~main.3afbeb89.js"
+        }
+      ]
+    },
+    "374": {
+      "js": [
+        {
+          "file": "assets/js/e1cc05d4.082a923a.js",
+          "hash": "362f45b1a5fb0e9f",
+          "publicPath": "/physical-ai-book/assets/js/e1cc05d4.082a923a.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.a6d9769f.js",
+          "hash": "2d8aeb5d825ef19b",
+          "publicPath": "/physical-ai-book/assets/js/17896441.a6d9769f.js"
+        }
+      ]
+    },
+    "492": {
+      "js": [
+        {
+          "file": "assets/js/bfc2b222.653b9bd4.js",
+          "hash": "a62337b3b59f28b5",
+          "publicPath": "/physical-ai-book/assets/js/bfc2b222.653b9bd4.js"
+        }
+      ]
+    },
+    "495": {
+      "js": [
+        {
+          "file": "assets/js/0787d826.2dc66c85.js",
+          "hash": "8fc83346b5d4b139",
+          "publicPath": "/physical-ai-book/assets/js/0787d826.2dc66c85.js"
+        }
+      ]
+    },
+    "569": {
+      "js": [
+        {
+          "file": "assets/js/21ce1082.26472b87.js",
+          "hash": "6ed1435f94b1ed93",
+          "publicPath": "/physical-ai-book/assets/js/21ce1082.26472b87.js"
+        }
+      ]
+    },
+    "581": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.7b82f6d5.js",
+          "hash": "61c1f45674140078",
+          "publicPath": "/physical-ai-book/assets/js/935f2afb.7b82f6d5.js"
+        }
+      ]
+    },
+    "601": {
+      "js": [
+        {
+          "file": "assets/js/4a90598f.19e84354.js",
+          "hash": "d8f98fdaf0121e87",
+          "publicPath": "/physical-ai-book/assets/js/4a90598f.19e84354.js"
+        }
+      ]
+    },
+    "622": {
+      "js": [
+        {
+          "file": "assets/js/495f1a83.84950d8f.js",
+          "hash": "54c6aa19413e0fa6",
+          "publicPath": "/physical-ai-book/assets/js/495f1a83.84950d8f.js"
+        }
+      ]
+    },
+    "643": {
+      "js": [
+        {
+          "file": "assets/js/bd47438f.6c96a376.js",
+          "hash": "f0d02fc54b39a111",
+          "publicPath": "/physical-ai-book/assets/js/bd47438f.6c96a376.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.56351e80.js",
+          "hash": "9184cbbf8d84f0b8",
+          "publicPath": "/physical-ai-book/assets/js/5e95c892.56351e80.js"
+        }
+      ]
+    },
+    "757": {
+      "js": [
+        {
+          "file": "assets/js/cd1ecd84.95b57a96.js",
+          "hash": "90eac3a66eaa3617",
+          "publicPath": "/physical-ai-book/assets/js/cd1ecd84.95b57a96.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.377a4300.js",
+          "hash": "14a9fc61869377a5",
+          "publicPath": "/physical-ai-book/assets/js/main.377a4300.js"
+        }
+      ]
+    },
+    "818": {
+      "js": [
+        {
+          "file": "assets/js/d40f44fe.d2845462.js",
+          "hash": "ac0fec6c9da30f3f",
+          "publicPath": "/physical-ai-book/assets/js/d40f44fe.d2845462.js"
+        }
+      ]
+    },
+    "845": {
+      "js": [
+        {
+          "file": "assets/js/3a7a8a21.9bec13cf.js",
+          "hash": "ed79c630a784df93",
+          "publicPath": "/physical-ai-book/assets/js/3a7a8a21.9bec13cf.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.48fbcd95.css",
+          "hash": "91e22b6e2430551b",
+          "publicPath": "/physical-ai-book/assets/css/styles.48fbcd95.css"
+        }
+      ]
+    },
+    "874": {
+      "js": [
+        {
+          "file": "assets/js/a4c20346.56b47a3c.js",
+          "hash": "9fa6ddbf288e89d3",
+          "publicPath": "/physical-ai-book/assets/js/a4c20346.56b47a3c.js"
+        }
+      ]
+    },
+    "900": {
+      "js": [
+        {
+          "file": "assets/js/2ad1eea0.d36e96b8.js",
+          "hash": "86d0c350503e886d",
+          "publicPath": "/physical-ai-book/assets/js/2ad1eea0.d36e96b8.js"
+        }
+      ]
+    },
+    "933": {
+      "js": [
+        {
+          "file": "assets/js/f32f8da4.ef4b062b.js",
+          "hash": "e78a28f3b3e98f49",
+          "publicPath": "/physical-ai-book/assets/js/f32f8da4.ef4b062b.js"
+        }
+      ]
+    },
+    "963": {
+      "js": [
+        {
+          "file": "assets/js/2de1ffc5.4a2ba49d.js",
+          "hash": "5074b99815efecdb",
+          "publicPath": "/physical-ai-book/assets/js/2de1ffc5.4a2ba49d.js"
+        }
+      ]
+    },
+    "976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.91b6c739.js",
+          "hash": "5689b11bab554a9e",
+          "publicPath": "/physical-ai-book/assets/js/0e384e19.91b6c739.js"
+        }
+      ]
+    }
+  }
+}

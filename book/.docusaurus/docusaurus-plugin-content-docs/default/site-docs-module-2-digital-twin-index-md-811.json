@@ -1,0 +1,30 @@
+{
+  "id": "module-2-digital-twin/index",
+  "title": "Module 2 - The Digital Twin (Gazebo & Unity)",
+  "description": "Physics simulation and environment building for humanoid robots",
+  "source": "@site/docs/module-2-digital-twin/index.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/",
+  "permalink": "/physical-ai-book/docs/module-2-digital-twin/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Module 2 - The Digital Twin (Gazebo & Unity)",
+    "sidebar_label": "Digital Twin",
+    "sidebar_position": 3,
+    "description": "Physics simulation and environment building for humanoid robots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF",
+    "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+  },
+  "next": {
+    "title": "Gazebo Simulation",
+    "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+  }
+}

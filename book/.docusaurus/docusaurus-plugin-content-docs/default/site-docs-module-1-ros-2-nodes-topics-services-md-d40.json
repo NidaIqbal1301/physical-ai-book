@@ -1,0 +1,30 @@
+{
+  "id": "module-1-ros2/nodes-topics-services",
+  "title": "ROS 2 Nodes, Topics, and Services",
+  "description": "Understanding ROS 2 communication patterns for humanoid robot control",
+  "source": "@site/docs/module-1-ros2/nodes-topics-services.md",
+  "sourceDirName": "module-1-ros2",
+  "slug": "/module-1-ros2/nodes-topics-services",
+  "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/nodes-topics-services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "ROS 2 Nodes, Topics, and Services",
+    "sidebar_label": "Nodes, Topics, Services",
+    "sidebar_position": 2,
+    "description": "Understanding ROS 2 communication patterns for humanoid robot control"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Architecture",
+    "permalink": "/physical-ai-book/docs/module-1-ros2/architecture"
+  },
+  "next": {
+    "title": "URDF",
+    "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "module-1-ros2/architecture",
+  "title": "ROS 2 Architecture",
+  "description": "Understanding the architecture of ROS 2 for humanoid robot control",
+  "source": "@site/docs/module-1-ros2/architecture.md",
+  "sourceDirName": "module-1-ros2",
+  "slug": "/module-1-ros2/architecture",
+  "permalink": "/physical-ai-book/docs/module-1-ros2/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "ROS 2 Architecture",
+    "sidebar_label": "Architecture",
+    "sidebar_position": 1,
+    "description": "Understanding the architecture of ROS 2 for humanoid robot control"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2",
+    "permalink": "/physical-ai-book/docs/module-1-ros2/"
+  },
+  "next": {
+    "title": "Nodes, Topics, Services",
+    "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services"
+  }
+}

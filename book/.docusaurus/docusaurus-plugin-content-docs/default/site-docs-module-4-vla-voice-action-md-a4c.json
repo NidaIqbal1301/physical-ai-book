@@ -1,0 +1,30 @@
+{
+  "id": "module-4-vla/voice-action",
+  "title": "Voice-to-Action Systems",
+  "description": "Integrating OpenAI Whisper for voice processing in humanoid robots",
+  "source": "@site/docs/module-4-vla/voice-action.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/voice-action",
+  "permalink": "/physical-ai-book/docs/module-4-vla/voice-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/voice-action.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Voice-to-Action Systems",
+    "sidebar_label": "Voice-to-Action",
+    "sidebar_position": 1,
+    "description": "Integrating OpenAI Whisper for voice processing in humanoid robots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA",
+    "permalink": "/physical-ai-book/docs/module-4-vla/"
+  },
+  "next": {
+    "title": "Cognitive Planning",
+    "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+  }
+}
