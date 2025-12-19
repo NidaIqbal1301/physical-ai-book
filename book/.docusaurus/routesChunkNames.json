@@ -1,125 +1,129 @@
 {
-  "/physical-ai-book/__docusaurus/debug-2c1": {
+  "/__docusaurus/debug-bed": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/__docusaurus/debug/config-3f3": {
+  "/__docusaurus/debug/config-356": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/__docusaurus/debug/content-bcb": {
+  "/__docusaurus/debug/content-311": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     },
     "allContent": "allContent---physical-ai-book-docusaurus-debug-content-246-4b2"
   },
-  "/physical-ai-book/__docusaurus/debug/globalData-35d": {
+  "/__docusaurus/debug/globalData-d1a": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/__docusaurus/debug/metadata-e0b": {
+  "/__docusaurus/debug/metadata-3a6": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/__docusaurus/debug/registry-cdb": {
+  "/__docusaurus/debug/registry-6b4": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/__docusaurus/debug/routes-f28": {
+  "/__docusaurus/debug/routes-039": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
       "plugin": "plugin---physical-ai-book-docusaurus-debugdac-d07"
     }
   },
-  "/physical-ai-book/docs-312": {
+  "/docs-051": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---physical-ai-book-docsf-32-877"
     }
   },
-  "/physical-ai-book/docs-b07": {
+  "/docs-4db": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---physical-ai-book-docs-935-ec4"
   },
-  "/physical-ai-book/docs-194": {
+  "/docs-f51": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/physical-ai-book/docs/intro-6f0": {
+  "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-intro-0-e-3-b7e"
   },
-  "/physical-ai-book/docs/module-1-ros2/-c21": {
+  "/docs/module-1-ros2/-fb1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-1-ros-2-4-dd-154"
   },
-  "/physical-ai-book/docs/module-1-ros2/architecture-5e0": {
+  "/docs/module-1-ros2/architecture-e2c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-1-ros-2-architecture-495-454"
   },
-  "/physical-ai-book/docs/module-1-ros2/nodes-topics-services-b40": {
+  "/docs/module-1-ros2/nodes-topics-services-7c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-1-ros-2-nodes-topics-servicesd-40-1b0"
   },
-  "/physical-ai-book/docs/module-1-ros2/urdf-5b2": {
+  "/docs/module-1-ros2/ros2-ddc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---physical-ai-book-docs-module-1-ros-2-ros-2659-a6b"
+  },
+  "/docs/module-1-ros2/urdf-5c6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-1-ros-2-urdf-21-c-805"
   },
-  "/physical-ai-book/docs/module-2-digital-twin/-213": {
+  "/docs/module-2-digital-twin/-1dd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-2-digital-twin-811-256"
   },
-  "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation-367": {
+  "/docs/module-2-digital-twin/gazebo-simulation-7cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-2-digital-twin-gazebo-simulationbd-4-dd7"
   },
-  "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation-12a": {
+  "/docs/module-2-digital-twin/sensor-simulation-cbc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-2-digital-twin-sensor-simulation-3-a-7-9a2"
   },
-  "/physical-ai-book/docs/module-2-digital-twin/unity-hri-435": {
+  "/docs/module-2-digital-twin/unity-hri-c68": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-2-digital-twin-unity-hribfc-225"
   },
-  "/physical-ai-book/docs/module-3-ai-brain/-f85": {
+  "/docs/module-3-ai-brain/-fa0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-3-ai-brain-e-1-c-5e7"
   },
-  "/physical-ai-book/docs/module-3-ai-brain/isaac-sim-78d": {
+  "/docs/module-3-ai-brain/isaac-sim-881": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-3-ai-brain-isaac-sim-078-672"
   },
-  "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid-d26": {
+  "/docs/module-3-ai-brain/nav2-humanoid-d22": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-3-ai-brain-nav-2-humanoid-2-ad-f37"
   },
-  "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation-671": {
+  "/docs/module-3-ai-brain/vslam-navigation-540": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-3-ai-brain-vslam-navigationcc-4-4d2"
   },
-  "/physical-ai-book/docs/module-4-vla/-f3d": {
+  "/docs/module-4-vla/-375": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-4-vla-4-a-9-d71"
   },
-  "/physical-ai-book/docs/module-4-vla/capstone-project-f20": {
+  "/docs/module-4-vla/capstone-project-5e3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-4-vla-capstone-projectcd-1-775"
   },
-  "/physical-ai-book/docs/module-4-vla/cognitive-planning-7d4": {
+  "/docs/module-4-vla/cognitive-planning-726": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-4-vla-cognitive-planning-2-de-53e"
   },
-  "/physical-ai-book/docs/module-4-vla/voice-action-8f9": {
+  "/docs/module-4-vla/voice-action-3c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---physical-ai-book-docs-module-4-vla-voice-actiona-4-c-49b"
   }

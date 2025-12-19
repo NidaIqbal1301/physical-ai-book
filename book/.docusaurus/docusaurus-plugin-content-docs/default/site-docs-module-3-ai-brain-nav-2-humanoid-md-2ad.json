@@ -5,7 +5,7 @@
   "source": "@site/docs/module-3-ai-brain/nav2-humanoid.md",
   "sourceDirName": "module-3-ai-brain",
   "slug": "/module-3-ai-brain/nav2-humanoid",
-  "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid",
+  "permalink": "/docs/module-3-ai-brain/nav2-humanoid",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/nav2-humanoid.md",
@@ -21,10 +21,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VSLAM Navigation",
-    "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+    "permalink": "/docs/module-3-ai-brain/vslam-navigation"
   },
   "next": {
     "title": "VLA",
-    "permalink": "/physical-ai-book/docs/module-4-vla/"
+    "permalink": "/docs/module-4-vla/"
   }
 }

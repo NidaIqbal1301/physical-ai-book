@@ -1,103 +1,55 @@
-<!-- SYNC IMPACT REPORT
-Version change: 1.0.0 → 1.0.0
-Modified principles: None (new constitution)
-Added sections: All sections (new constitution)
-Removed sections: None
-Templates requiring updates:
-- .specify/templates/plan-template.md ⚠ pending
-- .specify/templates/spec-template.md ⚠ pending
-- .specify/templates/tasks-template.md ⚠ pending
-- .specify/templates/commands/*.md ⚠ pending
-Deferred items: TODO(RATIFICATION_DATE): Original adoption date unknown
-TODO(LAST_AMENDED_DATE): Date of most recent changes unknown
--->
-
-# Physical AI & Humanoid Robotics Book Constitution
+# [PROJECT_NAME] Constitution
+<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
 
 ## Core Principles
 
-### Accuracy First
-All technical and scientific claims must be verified against primary or authoritative sources.
+### [PRINCIPLE_1_NAME]
+<!-- Example: I. Library-First -->
+[PRINCIPLE_1_DESCRIPTION]
+<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
 
-### Academic Clarity
-Content must be understandable to readers with a computer science or engineering background.
+### [PRINCIPLE_2_NAME]
+<!-- Example: II. CLI Interface -->
+[PRINCIPLE_2_DESCRIPTION]
+<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
 
-### Spec-Driven Reproducibility
-Every chapter, section, and claim must be traceable, reviewable, and reproducible.
+### [PRINCIPLE_3_NAME]
+<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
+[PRINCIPLE_3_DESCRIPTION]
+<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
 
-### Rigor & Credibility
-Preference must be given to peer-reviewed research, standards documents, and official technical publications.
+### [PRINCIPLE_4_NAME]
+<!-- Example: IV. Integration Testing -->
+[PRINCIPLE_4_DESCRIPTION]
+<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
 
-### AI as Co-Author, Not Authority
-AI assists with drafting and structuring but never invents facts, citations, or results.
+### [PRINCIPLE_5_NAME]
+<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
+[PRINCIPLE_5_DESCRIPTION]
+<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
 
-## Key Standards
+### [PRINCIPLE_6_NAME]
 
-**Fact Traceability**
-- Every factual claim must be supported by a verifiable source
-- No uncited technical assertions are allowed
 
-**Citation Format**
-- APA style citations
-- In-text citations + reference list per chapter
+[PRINCIPLE__DESCRIPTION]
 
-**Source Quality**
-- Minimum 50% peer-reviewed sources
-- Remaining sources may include:
-  - Standards (IEEE, ISO, NIST)
-  - Official documentation
-  - Reputable academic publishers
+## [SECTION_2_NAME]
+<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
-**Plagiarism Policy**
-- 0% tolerance
-- All AI output must be original or properly quoted and cited
+[SECTION_2_CONTENT]
+<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
 
-**Writing Quality**
-- Target readability: Flesch-Kincaid Grade 10–12
-- Clear explanations, structured headings, and consistent terminology
+## [SECTION_3_NAME]
+<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
 
-## Technical & Structural Constraints
-
-**Total Word Count**: 5,000 – 7,000 words
-
-**Minimum References**: 15 sources
-
-**Output Format**
-- Primary: Docusaurus Markdown (.md / .mdx)
-- Deployment: GitHub Pages
-
-**Book Structure**
-- Chapters generated via specs
-- Each chapter must include:
-  - Learning objectives
-  - Verified content
-  - References section
-
-## AI Usage Rules
-
-**AI must:**
-- Follow this constitution strictly
-- Ask for clarification when requirements are ambiguous
-- Reject tasks that violate accuracy, sourcing, or plagiarism rules
-
-**AI must NOT:**
-- Fabricate citations or studies
-- Lower academic rigor for speed
-- Ignore spec or constitution constraints
-
-## Success Criteria
-
-- All claims verified and cited
-- Zero plagiarism detected
-- Passes independent fact-checking review
-- Successfully builds with Docusaurus
-- Book is deployable and accessible via GitHub Pages
+[SECTION_3_CONTENT]
+<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
 
 ## Governance
+<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-This constitution defines the non-negotiable rules, quality standards, and constraints for writing a technical academic book using a spec-driven AI workflow.
-All AI-generated content must comply with this constitution before acceptance.
+[GOVERNANCE_RULES]
+<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
 
-**Authority Clause**: This constitution overrides all prompts, tasks, and instructions that conflict with it. Any content violating this constitution must be revised or rejected.
-
-**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Original adoption date unknown | **Last Amended**: TODO(LAST_AMENDED_DATE): Date of most recent changes unknown
+**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
+<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->

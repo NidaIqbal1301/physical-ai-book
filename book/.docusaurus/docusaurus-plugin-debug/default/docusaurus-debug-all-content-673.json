@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/physical-ai-book/docs",
-          "tagsPath": "/physical-ai-book/docs/tags",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
           "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs",
           "editUrlLocalized": "https://github.com/your-username/physical-ai-book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,7 +26,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/physical-ai-book/docs/intro",
+              "permalink": "/docs/intro",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/intro.md",
@@ -42,7 +42,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "ROS 2",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/"
+                "permalink": "/docs/module-1-ros2/"
               }
             },
             {
@@ -52,7 +52,7 @@
               "source": "@site/docs/module-1-ros2/architecture.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/architecture",
-              "permalink": "/physical-ai-book/docs/module-1-ros2/architecture",
+              "permalink": "/docs/module-1-ros2/architecture",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/architecture.md",
@@ -68,11 +68,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ROS 2",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/"
+                "permalink": "/docs/module-1-ros2/"
               },
               "next": {
                 "title": "Nodes, Topics, Services",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services"
+                "permalink": "/docs/module-1-ros2/nodes-topics-services"
               }
             },
             {
@@ -82,7 +82,7 @@
               "source": "@site/docs/module-1-ros2/index.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/",
-              "permalink": "/physical-ai-book/docs/module-1-ros2/",
+              "permalink": "/docs/module-1-ros2/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/index.md",
@@ -98,11 +98,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/physical-ai-book/docs/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Architecture",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/architecture"
+                "permalink": "/docs/module-1-ros2/architecture"
               }
             },
             {
@@ -112,7 +112,7 @@
               "source": "@site/docs/module-1-ros2/nodes-topics-services.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/nodes-topics-services",
-              "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services",
+              "permalink": "/docs/module-1-ros2/nodes-topics-services",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/nodes-topics-services.md",
@@ -128,11 +128,31 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Architecture",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/architecture"
+                "permalink": "/docs/module-1-ros2/architecture"
               },
               "next": {
                 "title": "URDF",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+                "permalink": "/docs/module-1-ros2/urdf"
+              }
+            },
+            {
+              "id": "module-1-ros2/ros2",
+              "title": "ROS 2: The Robotic Nervous System",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1-ros2/ros2.mdx",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/ros2",
+              "permalink": "/docs/module-1-ros2/ros2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/ros2.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "ROS 2: The Robotic Nervous System",
+                "sidebar_label": "ROS 2 Overview",
+                "sidebar_position": 1
               }
             },
             {
@@ -142,7 +162,7 @@
               "source": "@site/docs/module-1-ros2/urdf.md",
               "sourceDirName": "module-1-ros2",
               "slug": "/module-1-ros2/urdf",
-              "permalink": "/physical-ai-book/docs/module-1-ros2/urdf",
+              "permalink": "/docs/module-1-ros2/urdf",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-1-ros2/urdf.md",
@@ -158,11 +178,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Nodes, Topics, Services",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services"
+                "permalink": "/docs/module-1-ros2/nodes-topics-services"
               },
               "next": {
                 "title": "Digital Twin",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/"
+                "permalink": "/docs/module-2-digital-twin/"
               }
             },
             {
@@ -172,7 +192,7 @@
               "source": "@site/docs/module-2-digital-twin/gazebo-simulation.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/gazebo-simulation",
-              "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation",
+              "permalink": "/docs/module-2-digital-twin/gazebo-simulation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/gazebo-simulation.md",
@@ -188,11 +208,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Digital Twin",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/"
+                "permalink": "/docs/module-2-digital-twin/"
               },
               "next": {
                 "title": "Unity HRI",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+                "permalink": "/docs/module-2-digital-twin/unity-hri"
               }
             },
             {
@@ -202,7 +222,7 @@
               "source": "@site/docs/module-2-digital-twin/index.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/",
-              "permalink": "/physical-ai-book/docs/module-2-digital-twin/",
+              "permalink": "/docs/module-2-digital-twin/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/index.md",
@@ -218,11 +238,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "URDF",
-                "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+                "permalink": "/docs/module-1-ros2/urdf"
               },
               "next": {
                 "title": "Gazebo Simulation",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+                "permalink": "/docs/module-2-digital-twin/gazebo-simulation"
               }
             },
             {
@@ -232,7 +252,7 @@
               "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/sensor-simulation",
-              "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+              "permalink": "/docs/module-2-digital-twin/sensor-simulation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
@@ -248,11 +268,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Unity HRI",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+                "permalink": "/docs/module-2-digital-twin/unity-hri"
               },
               "next": {
                 "title": "AI-Robot Brain",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+                "permalink": "/docs/module-3-ai-brain/"
               }
             },
             {
@@ -262,7 +282,7 @@
               "source": "@site/docs/module-2-digital-twin/unity-hri.md",
               "sourceDirName": "module-2-digital-twin",
               "slug": "/module-2-digital-twin/unity-hri",
-              "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri",
+              "permalink": "/docs/module-2-digital-twin/unity-hri",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/unity-hri.md",
@@ -278,11 +298,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Gazebo Simulation",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+                "permalink": "/docs/module-2-digital-twin/gazebo-simulation"
               },
               "next": {
                 "title": "Sensor Simulation",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation"
+                "permalink": "/docs/module-2-digital-twin/sensor-simulation"
               }
             },
             {
@@ -292,7 +312,7 @@
               "source": "@site/docs/module-3-ai-brain/index.md",
               "sourceDirName": "module-3-ai-brain",
               "slug": "/module-3-ai-brain/",
-              "permalink": "/physical-ai-book/docs/module-3-ai-brain/",
+              "permalink": "/docs/module-3-ai-brain/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/index.md",
@@ -308,11 +328,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Sensor Simulation",
-                "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation"
+                "permalink": "/docs/module-2-digital-twin/sensor-simulation"
               },
               "next": {
                 "title": "Isaac Sim",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim"
+                "permalink": "/docs/module-3-ai-brain/isaac-sim"
               }
             },
             {
@@ -322,7 +342,7 @@
               "source": "@site/docs/module-3-ai-brain/isaac-sim.md",
               "sourceDirName": "module-3-ai-brain",
               "slug": "/module-3-ai-brain/isaac-sim",
-              "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim",
+              "permalink": "/docs/module-3-ai-brain/isaac-sim",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/isaac-sim.md",
@@ -338,11 +358,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AI-Robot Brain",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+                "permalink": "/docs/module-3-ai-brain/"
               },
               "next": {
                 "title": "VSLAM Navigation",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+                "permalink": "/docs/module-3-ai-brain/vslam-navigation"
               }
             },
             {
@@ -352,7 +372,7 @@
               "source": "@site/docs/module-3-ai-brain/nav2-humanoid.md",
               "sourceDirName": "module-3-ai-brain",
               "slug": "/module-3-ai-brain/nav2-humanoid",
-              "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid",
+              "permalink": "/docs/module-3-ai-brain/nav2-humanoid",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/nav2-humanoid.md",
@@ -368,11 +388,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "VSLAM Navigation",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation"
+                "permalink": "/docs/module-3-ai-brain/vslam-navigation"
               },
               "next": {
                 "title": "VLA",
-                "permalink": "/physical-ai-book/docs/module-4-vla/"
+                "permalink": "/docs/module-4-vla/"
               }
             },
             {
@@ -382,7 +402,7 @@
               "source": "@site/docs/module-3-ai-brain/vslam-navigation.md",
               "sourceDirName": "module-3-ai-brain",
               "slug": "/module-3-ai-brain/vslam-navigation",
-              "permalink": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation",
+              "permalink": "/docs/module-3-ai-brain/vslam-navigation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-3-ai-brain/vslam-navigation.md",
@@ -398,11 +418,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Isaac Sim",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim"
+                "permalink": "/docs/module-3-ai-brain/isaac-sim"
               },
               "next": {
                 "title": "Nav2 Humanoid",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid"
+                "permalink": "/docs/module-3-ai-brain/nav2-humanoid"
               }
             },
             {
@@ -412,7 +432,7 @@
               "source": "@site/docs/module-4-vla/capstone-project.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/capstone-project",
-              "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project",
+              "permalink": "/docs/module-4-vla/capstone-project",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/capstone-project.md",
@@ -428,7 +448,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Cognitive Planning",
-                "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+                "permalink": "/docs/module-4-vla/cognitive-planning"
               }
             },
             {
@@ -438,7 +458,7 @@
               "source": "@site/docs/module-4-vla/cognitive-planning.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/cognitive-planning",
-              "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning",
+              "permalink": "/docs/module-4-vla/cognitive-planning",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/cognitive-planning.md",
@@ -454,11 +474,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Voice-to-Action",
-                "permalink": "/physical-ai-book/docs/module-4-vla/voice-action"
+                "permalink": "/docs/module-4-vla/voice-action"
               },
               "next": {
                 "title": "Capstone Project",
-                "permalink": "/physical-ai-book/docs/module-4-vla/capstone-project"
+                "permalink": "/docs/module-4-vla/capstone-project"
               }
             },
             {
@@ -468,7 +488,7 @@
               "source": "@site/docs/module-4-vla/index.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/",
-              "permalink": "/physical-ai-book/docs/module-4-vla/",
+              "permalink": "/docs/module-4-vla/",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/index.md",
@@ -484,11 +504,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Nav2 Humanoid",
-                "permalink": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid"
+                "permalink": "/docs/module-3-ai-brain/nav2-humanoid"
               },
               "next": {
                 "title": "Voice-to-Action",
-                "permalink": "/physical-ai-book/docs/module-4-vla/voice-action"
+                "permalink": "/docs/module-4-vla/voice-action"
               }
             },
             {
@@ -498,7 +518,7 @@
               "source": "@site/docs/module-4-vla/voice-action.md",
               "sourceDirName": "module-4-vla",
               "slug": "/module-4-vla/voice-action",
-              "permalink": "/physical-ai-book/docs/module-4-vla/voice-action",
+              "permalink": "/docs/module-4-vla/voice-action",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-4-vla/voice-action.md",
@@ -514,11 +534,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "VLA",
-                "permalink": "/physical-ai-book/docs/module-4-vla/"
+                "permalink": "/docs/module-4-vla/"
               },
               "next": {
                 "title": "Cognitive Planning",
-                "permalink": "/physical-ai-book/docs/module-4-vla/cognitive-planning"
+                "permalink": "/docs/module-4-vla/cognitive-planning"
               }
             }
           ],

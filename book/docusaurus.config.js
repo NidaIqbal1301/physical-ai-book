@@ -11,7 +11,7 @@ const config = {
   url: 'https://your-username.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages, this is usually /<project-name>/
-  baseUrl: '/physical-ai-book',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'your-username', // Usually your GitHub org/user name.
@@ -108,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Book. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Book. Built with ❤️ by Nida Iqbal.`,
       },
       prism: {
         theme: prismThemes.github,

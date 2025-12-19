@@ -1,98 +1,102 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/physical-ai-book/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/physical-ai-book/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/physical-ai-book/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/architecture",
-              "path": "/physical-ai-book/docs/module-1-ros2/architecture",
+              "path": "/docs/module-1-ros2/architecture",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/index",
-              "path": "/physical-ai-book/docs/module-1-ros2/",
+              "path": "/docs/module-1-ros2/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1-ros2/nodes-topics-services",
-              "path": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services",
+              "path": "/docs/module-1-ros2/nodes-topics-services",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "module-1-ros2/ros2",
+              "path": "/docs/module-1-ros2/ros2"
+            },
+            {
               "id": "module-1-ros2/urdf",
-              "path": "/physical-ai-book/docs/module-1-ros2/urdf",
+              "path": "/docs/module-1-ros2/urdf",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/gazebo-simulation",
-              "path": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation",
+              "path": "/docs/module-2-digital-twin/gazebo-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/index",
-              "path": "/physical-ai-book/docs/module-2-digital-twin/",
+              "path": "/docs/module-2-digital-twin/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/sensor-simulation",
-              "path": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+              "path": "/docs/module-2-digital-twin/sensor-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2-digital-twin/unity-hri",
-              "path": "/physical-ai-book/docs/module-2-digital-twin/unity-hri",
+              "path": "/docs/module-2-digital-twin/unity-hri",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-brain/index",
-              "path": "/physical-ai-book/docs/module-3-ai-brain/",
+              "path": "/docs/module-3-ai-brain/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-brain/isaac-sim",
-              "path": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim",
+              "path": "/docs/module-3-ai-brain/isaac-sim",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-brain/nav2-humanoid",
-              "path": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid",
+              "path": "/docs/module-3-ai-brain/nav2-humanoid",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3-ai-brain/vslam-navigation",
-              "path": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation",
+              "path": "/docs/module-3-ai-brain/vslam-navigation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/capstone-project",
-              "path": "/physical-ai-book/docs/module-4-vla/capstone-project",
+              "path": "/docs/module-4-vla/capstone-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/cognitive-planning",
-              "path": "/physical-ai-book/docs/module-4-vla/cognitive-planning",
+              "path": "/docs/module-4-vla/cognitive-planning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/index",
-              "path": "/physical-ai-book/docs/module-4-vla/",
+              "path": "/docs/module-4-vla/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4-vla/voice-action",
-              "path": "/physical-ai-book/docs/module-4-vla/voice-action",
+              "path": "/docs/module-4-vla/voice-action",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -100,7 +104,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/physical-ai-book/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

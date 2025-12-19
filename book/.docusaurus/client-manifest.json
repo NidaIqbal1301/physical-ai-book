@@ -10,6 +10,10 @@
       869,
       401
     ],
+    "65914269": [
+      869,
+      331
+    ],
     "main": [
       354,
       869,
@@ -89,6 +93,7 @@
     ],
     "styles": [
       48,
+      331,
       354,
       401,
       792,
@@ -150,12 +155,21 @@
         }
       ]
     },
+    "331": {
+      "js": [
+        {
+          "file": "assets/js/65914269.1407db32.js",
+          "hash": "a5404809515ca295",
+          "publicPath": "/physical-ai-book/assets/js/65914269.1407db32.js"
+        }
+      ]
+    },
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.3afbeb89.js",
-          "hash": "59a2bc90a8fbcdeb",
-          "publicPath": "/physical-ai-book/assets/js/runtime~main.3afbeb89.js"
+          "file": "assets/js/runtime~main.6af3c7e2.js",
+          "hash": "13ecc8bc9c9d2467",
+          "publicPath": "/physical-ai-book/assets/js/runtime~main.6af3c7e2.js"
         }
       ]
     },
@@ -207,9 +221,9 @@
     "581": {
       "js": [
         {
-          "file": "assets/js/935f2afb.7b82f6d5.js",
-          "hash": "61c1f45674140078",
-          "publicPath": "/physical-ai-book/assets/js/935f2afb.7b82f6d5.js"
+          "file": "assets/js/935f2afb.725f34b3.js",
+          "hash": "30f476beea8cab82",
+          "publicPath": "/physical-ai-book/assets/js/935f2afb.725f34b3.js"
         }
       ]
     },
@@ -261,9 +275,9 @@
     "792": {
       "js": [
         {
-          "file": "assets/js/main.377a4300.js",
-          "hash": "14a9fc61869377a5",
-          "publicPath": "/physical-ai-book/assets/js/main.377a4300.js"
+          "file": "assets/js/main.3a24149a.js",
+          "hash": "51cb2cbd6272efd6",
+          "publicPath": "/physical-ai-book/assets/js/main.3a24149a.js"
         }
       ]
     },
@@ -288,9 +302,9 @@
     "869": {
       "css": [
         {
-          "file": "assets/css/styles.48fbcd95.css",
-          "hash": "91e22b6e2430551b",
-          "publicPath": "/physical-ai-book/assets/css/styles.48fbcd95.css"
+          "file": "assets/css/styles.611dcb41.css",
+          "hash": "670490f3aa0794df",
+          "publicPath": "/physical-ai-book/assets/css/styles.611dcb41.css"
         }
       ]
     },

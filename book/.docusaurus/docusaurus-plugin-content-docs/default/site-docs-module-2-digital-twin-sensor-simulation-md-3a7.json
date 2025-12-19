@@ -5,7 +5,7 @@
   "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
   "sourceDirName": "module-2-digital-twin",
   "slug": "/module-2-digital-twin/sensor-simulation",
-  "permalink": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+  "permalink": "/docs/module-2-digital-twin/sensor-simulation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/sensor-simulation.md",
@@ -21,10 +21,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Unity HRI",
-    "permalink": "/physical-ai-book/docs/module-2-digital-twin/unity-hri"
+    "permalink": "/docs/module-2-digital-twin/unity-hri"
   },
   "next": {
     "title": "AI-Robot Brain",
-    "permalink": "/physical-ai-book/docs/module-3-ai-brain/"
+    "permalink": "/docs/module-3-ai-brain/"
   }
 }

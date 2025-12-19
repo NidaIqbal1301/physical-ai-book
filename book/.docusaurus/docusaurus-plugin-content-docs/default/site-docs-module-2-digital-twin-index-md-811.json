@@ -5,7 +5,7 @@
   "source": "@site/docs/module-2-digital-twin/index.md",
   "sourceDirName": "module-2-digital-twin",
   "slug": "/module-2-digital-twin/",
-  "permalink": "/physical-ai-book/docs/module-2-digital-twin/",
+  "permalink": "/docs/module-2-digital-twin/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/physical-ai-book/tree/main/docs/module-2-digital-twin/index.md",
@@ -21,10 +21,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "URDF",
-    "permalink": "/physical-ai-book/docs/module-1-ros2/urdf"
+    "permalink": "/docs/module-1-ros2/urdf"
   },
   "next": {
     "title": "Gazebo Simulation",
-    "permalink": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation"
+    "permalink": "/docs/module-2-digital-twin/gazebo-simulation"
   }
 }

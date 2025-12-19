@@ -8,7 +8,7 @@ export default {
   "tagline": "Bridging Digital Intelligence with Physical Embodiment",
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
-  "baseUrl": "/physical-ai-book/",
+  "baseUrl": "/",
   "organizationName": "your-username",
   "projectName": "physical-ai-book",
   "onBrokenLinks": "warn",
@@ -94,7 +94,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Book. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Book. Built with ❤️ by Nida Iqbal."
     },
     "prism": {
       "theme": {

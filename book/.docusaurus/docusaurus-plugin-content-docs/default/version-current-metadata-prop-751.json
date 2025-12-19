@@ -16,7 +16,7 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/physical-ai-book/docs/intro",
+            "href": "/docs/intro",
             "docId": "intro",
             "unlisted": false
           }
@@ -31,28 +31,28 @@
           {
             "type": "link",
             "label": "ROS 2",
-            "href": "/physical-ai-book/docs/module-1-ros2/",
+            "href": "/docs/module-1-ros2/",
             "docId": "module-1-ros2/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Architecture",
-            "href": "/physical-ai-book/docs/module-1-ros2/architecture",
+            "href": "/docs/module-1-ros2/architecture",
             "docId": "module-1-ros2/architecture",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Nodes, Topics, Services",
-            "href": "/physical-ai-book/docs/module-1-ros2/nodes-topics-services",
+            "href": "/docs/module-1-ros2/nodes-topics-services",
             "docId": "module-1-ros2/nodes-topics-services",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "URDF",
-            "href": "/physical-ai-book/docs/module-1-ros2/urdf",
+            "href": "/docs/module-1-ros2/urdf",
             "docId": "module-1-ros2/urdf",
             "unlisted": false
           }
@@ -67,28 +67,28 @@
           {
             "type": "link",
             "label": "Digital Twin",
-            "href": "/physical-ai-book/docs/module-2-digital-twin/",
+            "href": "/docs/module-2-digital-twin/",
             "docId": "module-2-digital-twin/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Gazebo Simulation",
-            "href": "/physical-ai-book/docs/module-2-digital-twin/gazebo-simulation",
+            "href": "/docs/module-2-digital-twin/gazebo-simulation",
             "docId": "module-2-digital-twin/gazebo-simulation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Unity HRI",
-            "href": "/physical-ai-book/docs/module-2-digital-twin/unity-hri",
+            "href": "/docs/module-2-digital-twin/unity-hri",
             "docId": "module-2-digital-twin/unity-hri",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Sensor Simulation",
-            "href": "/physical-ai-book/docs/module-2-digital-twin/sensor-simulation",
+            "href": "/docs/module-2-digital-twin/sensor-simulation",
             "docId": "module-2-digital-twin/sensor-simulation",
             "unlisted": false
           }
@@ -103,28 +103,28 @@
           {
             "type": "link",
             "label": "AI-Robot Brain",
-            "href": "/physical-ai-book/docs/module-3-ai-brain/",
+            "href": "/docs/module-3-ai-brain/",
             "docId": "module-3-ai-brain/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Isaac Sim",
-            "href": "/physical-ai-book/docs/module-3-ai-brain/isaac-sim",
+            "href": "/docs/module-3-ai-brain/isaac-sim",
             "docId": "module-3-ai-brain/isaac-sim",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "VSLAM Navigation",
-            "href": "/physical-ai-book/docs/module-3-ai-brain/vslam-navigation",
+            "href": "/docs/module-3-ai-brain/vslam-navigation",
             "docId": "module-3-ai-brain/vslam-navigation",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Nav2 Humanoid",
-            "href": "/physical-ai-book/docs/module-3-ai-brain/nav2-humanoid",
+            "href": "/docs/module-3-ai-brain/nav2-humanoid",
             "docId": "module-3-ai-brain/nav2-humanoid",
             "unlisted": false
           }
@@ -139,28 +139,28 @@
           {
             "type": "link",
             "label": "VLA",
-            "href": "/physical-ai-book/docs/module-4-vla/",
+            "href": "/docs/module-4-vla/",
             "docId": "module-4-vla/index",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Voice-to-Action",
-            "href": "/physical-ai-book/docs/module-4-vla/voice-action",
+            "href": "/docs/module-4-vla/voice-action",
             "docId": "module-4-vla/voice-action",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Cognitive Planning",
-            "href": "/physical-ai-book/docs/module-4-vla/cognitive-planning",
+            "href": "/docs/module-4-vla/cognitive-planning",
             "docId": "module-4-vla/cognitive-planning",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Capstone Project",
-            "href": "/physical-ai-book/docs/module-4-vla/capstone-project",
+            "href": "/docs/module-4-vla/capstone-project",
             "docId": "module-4-vla/capstone-project",
             "unlisted": false
           }
@@ -194,6 +194,11 @@
       "title": "ROS 2 Nodes, Topics, and Services",
       "description": "Understanding ROS 2 communication patterns for humanoid robot control",
       "sidebar": "tutorialSidebar"
+    },
+    "module-1-ros2/ros2": {
+      "id": "module-1-ros2/ros2",
+      "title": "ROS 2: The Robotic Nervous System",
+      "description": "Learning Objectives"
     },
     "module-1-ros2/urdf": {
       "id": "module-1-ros2/urdf",
