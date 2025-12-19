@@ -20,8 +20,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ROS 2",
-    "permalink": "/docs/module-1-ros2/"
+    "title": "ROS 2 Overview",
+    "permalink": "/docs/module-1-ros2/ros2"
   },
   "next": {
     "title": "Nodes, Topics, Services",

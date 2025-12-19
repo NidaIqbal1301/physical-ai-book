@@ -3,51 +3,16 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'bed'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '356'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '311'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'd1a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '3a6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '6b4'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '039'),
-    exact: true
-  },
-  {
     path: '/docs',
-    component: ComponentCreator('/docs', '051'),
+    component: ComponentCreator('/docs', '3d2'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4db'),
+        component: ComponentCreator('/docs', '01b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f51'),
+            component: ComponentCreator('/docs', 'f94'),
             routes: [
               {
                 path: '/docs/intro',
@@ -58,6 +23,12 @@ export default [
               {
                 path: '/docs/module-1-ros2/',
                 component: ComponentCreator('/docs/module-1-ros2/', 'fb1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/module-1-ros2/',
+                component: ComponentCreator('/docs/module-1-ros2/', 'e0b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -75,8 +46,9 @@ export default [
               },
               {
                 path: '/docs/module-1-ros2/ros2',
-                component: ComponentCreator('/docs/module-1-ros2/ros2', 'ddc'),
-                exact: true
+                component: ComponentCreator('/docs/module-1-ros2/ros2', '51b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/module-1-ros2/urdf',

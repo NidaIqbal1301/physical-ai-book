@@ -15,6 +15,7 @@ const sidebars = {
       label: 'Module 1 - The Robotic Nervous System (ROS 2)',
       items: [
         'module-1-ros2/index',
+        'module-1-ros2/ros2',
         'module-1-ros2/architecture',
         'module-1-ros2/nodes-topics-services',
         'module-1-ros2/urdf',

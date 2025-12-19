@@ -37,6 +37,13 @@
           },
           {
             "type": "link",
+            "label": "ROS 2 Overview",
+            "href": "/docs/module-1-ros2/ros2",
+            "docId": "module-1-ros2/ros2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Architecture",
             "href": "/docs/module-1-ros2/architecture",
             "docId": "module-1-ros2/architecture",
@@ -185,8 +192,8 @@
     },
     "module-1-ros2/index": {
       "id": "module-1-ros2/index",
-      "title": "Module 1 - The Robotic Nervous System (ROS 2)",
-      "description": "Introduction to ROS 2 for humanoid robot control",
+      "title": "ROS 2 - The Robotic Nervous System",
+      "description": "Understanding ROS 2 as the middleware for humanoid robot control",
       "sidebar": "tutorialSidebar"
     },
     "module-1-ros2/nodes-topics-services": {
@@ -198,7 +205,8 @@
     "module-1-ros2/ros2": {
       "id": "module-1-ros2/ros2",
       "title": "ROS 2: The Robotic Nervous System",
-      "description": "Learning Objectives"
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
     },
     "module-1-ros2/urdf": {
       "id": "module-1-ros2/urdf",

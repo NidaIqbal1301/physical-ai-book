@@ -1,0 +1,280 @@
+---
+title: ROS 2 - The Robotic Nervous System
+sidebar_label: ROS 2
+sidebar_position: 2
+description: Understanding ROS 2 as the middleware for humanoid robot control
+keywords: [ROS 2, robotics middleware, humanoid robotics, robot operating system]
+---
+
+# ROS 2 - The Robotic Nervous System
+
+## Learning Objectives
+
+After completing this chapter, students will be able to:
+- Explain the fundamental architecture of ROS 2 and its role in humanoid robotics
+- Identify the key differences between ROS 1 and ROS 2
+- Implement basic ROS 2 concepts in Python using rclpy for humanoid robot control
+- Design and implement nodes, topics, services, and actions for humanoid robot applications
+- Evaluate the advantages of ROS 2 over ROS 1 for humanoid robot applications
+
+## Introduction to ROS 2 in Humanoid Robotics
+
+Robot Operating System 2 (ROS 2) serves as the foundational middleware that connects the digital brain (AI models, planners) with the physical body (sensors, actuators) of humanoid robots. Unlike its predecessor ROS 1, ROS 2 addresses critical challenges in humanoid robotics including real-time performance, security, and reliability requirements for robots operating in human environments.
+
+In the context of humanoid robotics, ROS 2 provides:
+- **Real-time capabilities**: Essential for maintaining balance and coordinated movement
+- **Security features**: Important for robots operating in public or sensitive environments
+- **Official Windows support**: Expanding development options
+- **Improved communication patterns**: Better suited for complex humanoid robot architectures
+
+The evolution from ROS 1 to ROS 2 was driven by the growing needs of advanced robotics applications, particularly humanoid robots that must operate safely and reliably in human-populated environments. ROS 2's architecture is built on the Data Distribution Service (DDS) standard, which provides more robust and configurable communication patterns essential for humanoid robot control.
+
+## ROS 2 Architecture Overview
+
+### Nodes: The Processing Units
+
+In ROS 2, nodes represent individual software components that perform specific functions. For humanoid robots, nodes correspond to different subsystems:
+
+- **Perception Nodes**: Process sensor data (cameras, LiDAR, IMUs, force/torque sensors)
+- **Navigation Nodes**: Handle path planning and obstacle avoidance
+- **Control Nodes**: Manage joint positions, velocities, and torques
+- **Cognitive Nodes**: Process high-level commands and decision-making
+- **Humanoid-specific Nodes**: Handle unique aspects of humanoid locomotion and interaction
+
+Each node runs in its own process space, contributing to system robustness. If one node fails, others can continue operating, which is critical for humanoid robots where complete system failure could result in unsafe situations.
+
+```python
+# Example of a humanoid joint controller node
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import JointState
+from std_msgs.msg import Float64MultiArray
+
+class JointController(Node):
+    def __init__(self):
+        super().__init__('joint_controller')
+        self.subscription = self.create_subscription(
+            JointState,
+            'joint_states',
+            self.listener_callback,
+            10)
+        self.publisher = self.create_publisher(
+            Float64MultiArray,
+            'joint_commands',
+            10)
+        
+    def listener_callback(self, msg):
+        # Process joint state information
+        self.get_logger().info(f'Received joint states: {msg.position}')
+
+def main(args=None):
+    rclpy.init(args=args)
+    joint_controller = JointController()
+    rclpy.spin(joint_controller)
+    joint_controller.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+```
+
+### Topics: Asynchronous Communication
+
+Topics enable asynchronous data exchange between nodes using publish-subscribe patterns. In humanoid robotics, this is essential for:
+
+- Sensor data distribution (camera feeds, IMU readings)
+- State publishing (joint angles, robot pose)
+- Command streaming (motion trajectories, actuator commands)
+
+For humanoid robots, topics must support high-frequency updates for real-time control. For example:
+- Joint state updates: 100Hz or higher for smooth motion
+- IMU data: 200Hz for balance control
+- Camera data: 30-60Hz for visual processing
+
+### Services: Synchronous Request/Response
+
+Services provide synchronous request-response communication, ideal for humanoid robotics tasks that require guaranteed completion:
+
+- Trajectory execution confirmation
+- Calibration procedures
+- Diagnostic queries
+- Emergency stop activation
+
+### Actions: Long-Running Commands with Feedback
+
+Actions are particularly important for humanoid robotics as they provide the ability to send goals, receive feedback during execution, and get results. This is essential for:
+
+- Walking pattern generation and execution
+- Manipulation tasks with multi-step processes
+- Navigation with dynamic replanning
+
+```python
+# Example of an action server for humanoid walking
+from rclpy.action import ActionServer
+from rclpy.node import Node
+from your_pkg.action import Walk
+
+class WalkActionServer(Node):
+    def __init__(self):
+        super().__init__('walk_action_server')
+        self._action_server = ActionServer(
+            self,
+            Walk,
+            'walk',
+            self.execute_callback)
+
+    def execute_callback(self, goal_handle):
+        # Execute walking behavior
+        feedback_msg = Walk.Feedback()
+        result = Walk.Result()
+        
+        # Implementation of walking logic with feedback
+        for i in range(10):
+            feedback_msg.progress = i / 10.0
+            goal_handle.publish_feedback(feedback_msg)
+        
+        result.success = True
+        return result
+```
+
+## ROS 2 Communication in Humanoid Systems
+
+### Message Types and Custom Interfaces
+
+Humanoid robotics requires specialized message types beyond standard ROS 2 interfaces:
+
+- `sensor_msgs/JointState`: For joint angle, velocity, and effort information
+- `geometry_msgs/WrenchStamped`: For force/torque sensing
+- `control_msgs/JointTrajectoryController`: For trajectory following
+- Custom messages for humanoid-specific data (e.g., center of mass, contact states)
+
+Creating custom message definitions allows humanoid robots to communicate specialized information:
+
+```xml
+# HumanoidCommand.msg
+float64[] joint_positions
+float64[] joint_velocities
+float64[] joint_efforts
+uint8[] contact_states
+float64[] com_position  # Center of mass
+```
+
+### Quality of Service (QoS) Profiles
+
+For humanoid robotics, appropriate QoS settings are crucial for performance and safety:
+
+- **Reliability**: `RELIABLE` for critical control commands, `BEST_EFFORT` for sensor data where some loss is acceptable
+- **Durability**: `TRANSIENT_LOCAL` for static transforms that newly connected nodes need
+- **History**: `KEEP_LAST` for control commands, `KEEP_ALL` for logging
+
+## Implementing ROS 2 for Humanoid Control
+
+### Node Design Patterns
+
+When designing nodes for humanoid robotics, several patterns emerge:
+
+**State Estimation Node**: Combines multiple sensor inputs to determine robot state
+- Subscribes to: IMU, joint encoders, force/torque sensors
+- Publishes: Robot state (position, velocity, acceleration)
+
+**Motion Planning Node**: Generates trajectories for humanoid movement
+- Subscribes to: High-level goals, current state
+- Publishes: Joint trajectories, timing information
+
+**Safety Node**: Monitors system state and implements protective behaviors
+- Subscribes to: All critical sensor and command topics
+- Publishes: Safety limits, emergency stops
+
+### Integration with Humanoid Middleware
+
+ROS 2 serves as a middleware layer above real-time control systems. For humanoid robots, this typically involves:
+
+- **Low-level Controllers**: Real-time control of joint positions, often implemented in C++ with high-priority processes
+- **ROS 2 Interface**: Bridge nodes connecting ROS 2 topics to low-level interfaces
+- **High-level Planning**: Motion planning, path planning, and behavioral logic in ROS 2
+
+## Advanced ROS 2 Concepts for Humanoid Robotics
+
+### Launch Files for Complex Systems
+
+Humanoid robots typically require multiple nodes to coordinate. ROS 2 launch files provide a mechanism to:
+
+- Start multiple nodes simultaneously
+- Configure node parameters
+- Handle dependencies between nodes
+- Monitor node health
+
+```python
+# Example launch file for humanoid robot control
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='humanoid_control',
+            executable='joint_controller',
+            name='joint_controller',
+            parameters=[
+                {'controller_frequency': 100},
+                {'robot_description': 'path/to/robot.urdf'}
+            ]
+        ),
+        Node(
+            package='humanoid_perception',
+            executable='state_estimator',
+            name='state_estimator'
+        )
+    ])
+```
+
+### Parameter Management
+
+Humanoid robots require extensive parameter configuration:
+
+- Joint limits and safety constraints
+- Control gains for different movement types
+- Sensor calibration values
+- Walking pattern parameters
+
+ROS 2 provides parameter servers and configuration files to manage these values effectively.
+
+## Humanoid-Specific Considerations
+
+### Real-Time Requirements
+
+Humanoid robots have stringent real-time requirements that ROS 2 addresses through:
+
+- **Deadline QoS**: Ensuring messages are processed within time constraints
+- **Liveliness QoS**: Confirming nodes are actively processing data
+- **RMW Implementation**: Using real-time capable middleware implementations
+
+### Safety Architecture
+
+ROS 2 enables the implementation of robust safety systems for humanoid robots:
+
+- **Process Isolation**: Nodes running in separate processes enhance system safety
+- **Monitoring Tools**: Built-in tools for monitoring node health and system performance
+- **Emergency Procedures**: Defined patterns for handling system failures safely
+
+## Future Developments and Trends
+
+ROS 2 continues to evolve with features specifically relevant to humanoid robotics:
+
+- **ROS 2 Navigation**: Advanced navigation stack with improved support for legged robots
+- **ROS 2 Control**: Enhanced control framework for complex robotic systems
+- **Simulation Integration**: Better integration with physics simulation for humanoid robots
+
+## Summary
+
+ROS 2 provides the foundational communication infrastructure for humanoid robotics, enabling the integration of perception, planning, and action systems. Its architecture addresses the unique challenges of humanoid robots including real-time requirements, safety considerations, and complex multi-modal sensor integration. As humanoid robotics continues to advance, ROS 2 will remain a critical component for connecting the digital and physical aspects of these sophisticated systems.
+
+## References
+
+Corrales Ramírez, J. E., Candelas Herías, F. A., & Torres, F. (2016). ROS and Gazebo in education and research of mobile robotics. *IFAC-PapersOnLine*, 49(30), 54-59.
+
+Macenski, S., Woodall, S., & Faust, A. (2022). The Navigation2 Project: An Updated Robot Navigation System for ROS 2. *IEEE Robotics & Automation Magazine*, 29(2), 70-78.
+
+Quigley, M., Gerkey, B., & Smart, W. D. (2009). Programming robots with ROS: A practical introduction to the Robot Operating System. *IEEE Intelligent Systems*, 32(1), 28-32.
+
+Sünderhauf, N., Neubert, P., & Protzel, P. (2018). Are we there yet? Challenging ROS2 for real-world robot applications. *ROSCon*, 2018.

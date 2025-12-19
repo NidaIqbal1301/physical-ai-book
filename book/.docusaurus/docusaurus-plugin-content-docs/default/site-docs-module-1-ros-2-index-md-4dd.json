@@ -24,7 +24,7 @@
     "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Architecture",
-    "permalink": "/docs/module-1-ros2/architecture"
+    "title": "ROS 2 Overview",
+    "permalink": "/docs/module-1-ros2/ros2"
   }
 }

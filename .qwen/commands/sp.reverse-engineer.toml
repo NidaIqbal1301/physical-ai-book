@@ -1,6 +1,6 @@
 description = "Reverse engineer a codebase into SDD-RI artifacts (spec, plan, tasks, intelligence)"
 
-prompt = """
+prompt = '''
 ---
 description: Reverse engineer a codebase into SDD-RI artifacts (spec, plan, tasks, intelligence)
 ---
@@ -1088,7 +1088,7 @@ This document captures the reusable intelligence embedded in the codebase—patt
 ```python
 # Extracted from: [file: src/api/errors.py, lines 15-45]
 class APIError(Exception):
-    """Base exception for all API errors"""
+    \"\"\"Base exception for all API errors\"\"\"
 
     def __init__(self, code: str, message: str, status: int = 400, details: dict = None):
         self.code = code
@@ -1097,14 +1097,14 @@ class APIError(Exception):
         self.details = details or {}
 
     def to_response(self):
-        """Convert to JSON response format"""
+        \"\"\"Convert to JSON response format\"\"\"
         return {
-            "error": {
-                "code": self.code,
-                "message": self.message,
-                "details": self.details,
-                "request_id": get_request_id(),
-                "timestamp": datetime.utcnow().isoformat()
+            \"error\": {
+                \"code\": self.code,
+                \"message\": self.message,
+                \"details\": self.details,
+                \"request_id\": get_request_id(),
+                \"timestamp\": datetime.utcnow().isoformat()
             }
         }, self.status
 
@@ -1217,7 +1217,7 @@ with get_db_session() as session:
 from pydantic import BaseModel, EmailStr, validator
 
 class CreateUserRequest(BaseModel):
-    """Validation schema for user creation"""
+    \"\"\"Validation schema for user creation\"\"\"
     email: EmailStr                    # Email format validation
     username: str
     password: str
@@ -1225,7 +1225,7 @@ class CreateUserRequest(BaseModel):
 
     @validator('username')
     def username_alphanumeric(cls, v):
-        """Username must be alphanumeric"""
+        \"\"\"Username must be alphanumeric\"\"\"
         if not v.isalnum():
             raise ValueError('Username must contain only letters and numbers')
         if len(v) < 3 or len(v) > 20:
@@ -1234,7 +1234,7 @@ class CreateUserRequest(BaseModel):
 
     @validator('password')
     def password_strength(cls, v):
-        """Password must meet strength requirements"""
+        \"\"\"Password must meet strength requirements\"\"\"
         if len(v) < 8:
             raise ValueError('Password must be at least 8 characters')
         if not any(c.isupper() for c in v):
@@ -1613,4 +1613,4 @@ As the main request completes, you MUST create and complete a PHR (Prompt Histor
 4) Validate + report
    - No unresolved placeholders; path under `history/prompts/` and matches stage; stage/title/date coherent; print ID + path + stage + title.
    - On failure: warn, don't block. Skip only for `/sp.phr`.
-"""
+'''
